@@ -1,11 +1,11 @@
-# UTS PEMWEB
+<div align="center">
 
-**Oleh**
+# 💻✨ UTS PEMWEB 2025 
 
-```python
-20230801536-FRANS DANDY RIAUDY MISSAH
+ Oleh  
+*20230801536 — Frans Dandy Riaudy Missah*
 
-```
+
 # PICOS FRAMEWORK DEFINITION
 
 # P (Platform/Suspect)
@@ -105,23 +105,37 @@ RQ14: Bagaimana perbedaan peak hour order distribution antara platform online da
 
 RQ15: Apa perbedaan complexity of orders (customization, special requests) antara pemesanan digital dan tradisional
 
-# IMPLEMENTASI WEBSITE
+# 🟢 *3. Implementasi Website*
 
-1.  cd UTS-PEMWEB-2025
-2.  Buat folder project:
-    mkdir public
-3.  Pindahkan template Feane:    mv      feane-1.0.0 public/
-4.  Masuk ke folder public:
-    cd public
-5.  Cek isi template:
-    ls
-6. Buat file docker-compose.yml di root project:
-    cp docker-compose.yml ../docker-compose.yml
-7.  Jalankan Docker:
-    docker compose up -d
-8.  Cek container berjalan:
-    docker ps
-9.  Akses website di browser:
-    http://localhost:8080
-10. Jika ingin stop container:
-    docker compose down
+Berikut langkah-langkah implementasi website dengan Docker + template Feane.
+
+---
+
+## ⭐ *3.1 Setup Proyek*
+
+```sh
+cd boilerplate
+./start.sh uts-pemweb
+cd uts-pemweb
+cd src
+code .
+
+# 🟣 *1. SLR — Systematic Literature Review*
+
+Dokumen SLR berisi analisis literatur mengenai tren, teknologi, dan metode dalam pengembangan sistem pemesanan makanan online.
+
+📄 *File:* SLR.pdf  
+📌 Dijadikan dasar penyusunan BRD.
+
+---
+
+# 🔵 *2. BRD — Business Requirement Document*
+
+BRD berisi seluruh kebutuhan sistem berdasarkan hasil SLR:  
+✔ kebutuhan pengguna  
+✔ alur proses  
+✔ fitur aplikasi  
+✔ kebutuhan teknis  
+✔ spesifikasi sistem
+
+
