@@ -1,0 +1,12 @@
+services:
+  web:
+    image: nginx:stable-alpine
+    container_name: feane
+    ports:
+      - "8080:80"
+    volumes:
+      - ./feane-1.0.0:/usr/share/nginx/html:ro
+      # jika kamu punya nginx.conf kustom letakkan di ./docker/nginx/default.conf
+      # lalu uncomment baris berikut dan folder docker/nginx harus ada
+      # - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped
