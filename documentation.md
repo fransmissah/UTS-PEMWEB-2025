@@ -6,104 +6,63 @@
 *20230801536 — Frans Dandy Riaudy Missah*
 
 
-# PICOS FRAMEWORK DEFINITION
+# PICOS FRAMEWORK 
 
-# P (Platform/Suspect)
-**Platform Digital & Karakteristik Pengguna
+P – Platform
 
-Website pemesanan online
+Website restoran cepat saji (Feane) yang menampilkan menu, CTA “Order Now / Order Online”, navigasi sederhana, dan desain responsif.
 
-Mobile aplikasi
+I – Intervention
 
-Social media integration
+Penerapan elemen UI/UX utama:
 
-Demografi pengguna (usia, lokasi, perilaku)**
+CTA (Order Now & Order Online)
 
-# I (Intervention)
-**Fitur dan Fungsi Website
+Visual menu (gambar makanan)
 
-User interface design
+Hero section dengan gambar besar
 
-Proses pemesanan
+Navigasi sederhana
 
-Payment integration
+Responsive design
 
-Recommendation system
+C – Comparison
 
-Loyalty program**
+Dibandingkan dengan website restoran yang:
 
-# C (Comparison)
-**Perbandingan dengan Metode Lain
+Tidak memiliki CTA yang jelas
 
-Pemesanan offline (langsung di restoran)
+Menu tanpa gambar
 
-Platform third-party (GoFood, GrabFood)
+Navigasi rumit
 
-Metode pemesanan tradisional (telepon)
+Tidak responsif
 
-Versi website yang berbeda (A/B testing)**
+Hero section kurang menarik
 
-# O (Outcome)
-**Hasil yang Diukur
+O – Outcome
 
-Conversion rate
+Hasil yang diharapkan:
 
-User satisfaction
+Peningkatan user engagement
 
-Operational efficiency
+Peningkatan kemudahan pengguna dalam memesan
 
-Revenue impact
+Pengalaman pengguna lebih baik
 
-Customer retention**
+Konversi pemesanan online lebih tinggi
 
-# S (Study Design)
-**Jenis Penelitian
+Akses cepat ke fitur pemesanan
 
-Experimental studies
+S – Study Design
 
-Observational studies
+Systematic Literature Review (SLR) berdasarkan jurnal UI/UX restoran, online food ordering, dan desain website responsif (2015–2025).
 
-User testing
+Kesimpulan:
 
-Analytics analysis
+PICOs:
+Platform berupa website restoran cepat saji Feane. Intervensinya adalah penerapan fitur UI/UX seperti CTA, visual menu, navigasi sederhana, dan desain responsif. Dibandingkan dengan website restoran tanpa elemen tersebut. Hasilnya diharapkan meningkatkan user engagement, pengalaman pengguna, dan konversi pemesanan online. Desain penelitian menggunakan Systematic Literature Review.
 
-# A. PLATFORM/SUSPECT-FOCUSED RQs
-
-RQ1: Bagaimana karakteristik demografi pengguna (usia, jenis kelamin, lokasi) mempengaruhi preferensi terhadap platform pemesanan online vs offline?
-
-RQ2: Apa perbedaan perilaku pemesanan antara pengguna smartphone dan desktop dalam menggunakan website pemesanan fast food?
-
-RQ3: Bagaimana tingkat tech-savviness pengguna mempengaruhi adoption rate dan frequency of use platform website pemesanan?
-
-RQ4: Apa perbedaan kebutuhan dan ekspektasi antara first-time users dan repeat customers dalam menggunakan platform digital?
-
-# B. INTERVENTION-FOCUSED RQs
-User Interface & Experience
-RQ5: Bagaimana pengaruh desain user interface (minimalist vs feature-rich) terhadap conversion rate dan user satisfaction?
-
- RQ6: Seberapa efektif implementasi progressive web app (PWA) dibandingkan website tradisional dalam meningkatkan mobile user engagement?
-
-RQ7: Bagaimana pengaruh personalized menu recommendations terhadap average order value dan customer loyalty?
-
-Ordering Process
-RQ8: Apa perbedaan completion rate antara single-page checkout dan multi-step checkout process?
-
-RQ9: Bagaimana pengaruh guest checkout option terhadap conversion rate dibandingkan mandatory registration?
-
-RQ10: Seberapa efektif real-time order tracking dalam mengurangi customer anxiety dan meningkatkan satisfaction?
-
-Payment & Security
-RQ11: Bagaimana preferensi pengguna terhadap berbagai payment methods (e-wallet, bank transfer, COD) dan pengaruhnya terhadap completion rate?
-
-RQ12: Apa pengaruh visible security indicators (SSL, trust badges) terhadap user trust dan conversion rate?
-
-# C. COMPARISON-FOCUSED RQs
-Website vs Traditional Methods
-RQ13: Apa perbedaan average order value antara pemesanan melalui website dan pemesanan langsung di restoran?
-
-RQ14: Bagaimana perbedaan peak hour order distribution antara platform online dan offline?
-
-RQ15: Apa perbedaan complexity of orders (customization, special requests) antara pemesanan digital dan tradisional
 
 # 🟢 *3. Implementasi Website*
 
@@ -123,7 +82,8 @@ code .
 
 # 🟣 *1. SLR — Systematic Literature Review*
 
-Dokumen SLR berisi analisis literatur mengenai tren, teknologi, dan metode dalam pengembangan sistem pemesanan makanan online.
+Dokumen SLR berisi Analisis Fitur UI/UX pada Website Restoran Cepat Saji: Systematic Literature Review untuk Pengembangan Website Feane
+
 
 📄 *File:* SLR.pdf  
 📌 Dijadikan dasar penyusunan BRD.
@@ -133,10 +93,14 @@ Dokumen SLR berisi analisis literatur mengenai tren, teknologi, dan metode dalam
 # 🔵 *2. BRD — Business Requirement Document*
 
 BRD berisi seluruh kebutuhan sistem berdasarkan hasil SLR:  
-✔ kebutuhan pengguna  
-✔ alur proses  
-✔ fitur aplikasi  
-✔ kebutuhan teknis  
-✔ spesifikasi sistem
+Background
+Tujuan Bisnis
+Scope
+Stakeholders
+Business Requirements
+Functional Requirements
+Non-Functional Requirements
+User Story
+
 
 
